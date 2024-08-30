@@ -143,12 +143,12 @@ footer form input {
 #backToTop {
   background-color: var(--primary-color);
   border: none;
-  position: absolute;
+  position: fixed;
   width: 0px;
   height: 0px;
   right: 0px;
   transition: all 1s;
-  bottom: -240px;
+  bottom: 50px;
   opacity: 0;
 }
 
